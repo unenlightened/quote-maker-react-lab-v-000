@@ -22,3 +22,10 @@ export const upvoteQuote = (quoteId) => {
     quoteId
   }
 }
+
+export const downvoteQuote = (quoteId) => {
+  return {
+    type: 'DOWNVOTE_QUOTE',
+    quoteId
+  }
+}
