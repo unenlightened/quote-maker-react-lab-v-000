@@ -5,7 +5,7 @@ const addQuote = (quote) => {
   const addedQuote = { ...quote, id: uuid() }
   return {
     type: 'ADD_QUOTE',
-    quote
+    addedQuote
   }
 }
 
