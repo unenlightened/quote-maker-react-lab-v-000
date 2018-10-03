@@ -1,10 +1,10 @@
-// TODO: Create action creators as defined in tests
+import uuid from 'uuid'
 
 //quote: {}
 export const addQuote = (quote) => {
   return {
     type: 'ADD_QUOTE',
-    quote
+    { ...quote, id: uuid() }
   }
 }
 
