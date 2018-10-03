@@ -9,7 +9,7 @@ export const addQuote = (quote) => {
 }
 
 //quoteId: Integer
-export const removeQuote (quoteId) => {
+export const removeQuote = (quoteId) => {
   return {
     type: 'REMOVE_QUOTE',
     quoteId
